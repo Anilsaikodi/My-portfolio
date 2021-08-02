@@ -1,0 +1,180 @@
+
+  h1
+  {
+      text-align: center;
+      height:50px;
+      width:100%;
+      font-family: cursive;
+      
+      font-weight:900px;
+      background-color: lightslategray;
+      display:inline-block;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU53WcIptcSwZnejb7xr1JP-7OeKks5T75ng&usqp=CAU    ');  
+    background-repeat:no-repeat;
+    background-size: 100% 100%  ; 
+    
+  }
+  h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size:40px;
+    font:bolder;
+
+  }
+  a:hover{
+      color:orange;
+  }
+  .a1.hover{
+      color:palegoldenrod;
+  }
+  #div1{
+    text-align: center;
+    font-family: cursive;
+    height: 600px;
+    width:100%;
+    background-color:rgb(38, 40, 46);
+    font-size: 30px;
+    font-weight: 100;
+    display:inline-block;
+    background-image: url('https://wallpaperaccess.com/full/731628.jpg');  
+    background-repeat:no-repeat;
+  }
+  
+  #div2{
+    text-align: center;
+    height:500px;
+    width:100%;
+    background-color:rgb(64, 68, 71);
+    font-size: 15px;
+    color:black;
+   display:inline-block; 
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSlFfwkEpaeoxIDEwzMoirbfAZwR6PnTzJw&usqp=CAU');  
+    background-repeat:no-repeat; 
+    background-size: 100%; 
+         
+  }
+  #div4{
+    text-align: center; 
+    height:300px;
+    width:100%;
+    background-color:rgb(59, 57, 57);
+    font-size: 15px;
+    font-weight: 100;
+    
+    position:relative;
+    display:inline-block;
+    background-image: url('https://www.chrishazemusic.com/wp-content/uploads/2018/02/Website-Background-scaled.jpg');  
+    background-repeat:no-repeat;
+    background-size: 100%;
+  }
+  #div3{
+    text-align: center;
+    height:500px;
+    width:100%;
+    background-color:rgb(51, 47, 47);
+    font-size: 15px;
+    padding:auto;
+    position:relative;
+    display:inline-block;
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');  
+    background-repeat:no-repeat;
+    background-size: 100% 100%  ;
+  }
+  button{
+    background-color: #c24729d0;
+    font-family: cursive;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+    img {
+        position: static;
+        border: 1px solid #ddd;
+        border-radius: 50px;
+        padding:0px;
+        width: 200px;
+        top:0px;
+
+      }
+
+      body{
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      .container{
+        width: 50%;
+        margin: 0 auto;
+      }
+      @keyframes load{
+        from {
+          width: 0%
+        }
+      }
+      @-webkit-keyframes load{
+        from {
+          width: 0%
+        }
+      }
+      @-moz-keyframes load{
+        from {
+          width: 0%
+        }
+      }
+      @-o-keyframes load{
+        from {
+          width: 0%
+        }
+      }
+      
+      .bar{
+        background-color: #EEE;
+        padding: 2px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #FFF;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+      }
+      .bar::before{
+        content:  attr(data-skill);
+        background-color: #f3b0ff;
+        display: inline-block;
+        padding: 5px 0 5px 10px;
+        border-radius: inherit;
+        animation: load 2s 0s;
+        -webkit-animation: load 2s 0s;
+        -moz-animation: load 2s 0s;
+        -o-animation: load 2s 0s;
+      }
+      
+      .bar.front::before{
+        background-color: #ffcc33;
+      }
+      .bar.back::before{
+        background-color: #a6cfe3;
+      }
+      
+      .bar.learning::before{
+        width: calc(20% - 10px);
+      }
+      .bar.basic::before{
+        width: calc(40% - 10px);
+      }
+      .bar.intermediate::before{
+        width: calc(60% - 10px);
+      }
+      .bar.advanced::before{
+        width: calc(80% - 10px);
+      }
+      .bar.expert::before{
+        width: calc(100% - 10px);
+      } 
+#div4.hover{
+    color: powderblue;
+}
